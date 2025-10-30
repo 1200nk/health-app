@@ -4,24 +4,36 @@ A full‑stack AI‑assisted health symptom checker that takes user symptoms and
 🚀 Features
 User authentication (JWT)
 
+
 Symptom input & analysis
+
 
 Medical history tracking
 
+
 Secure MongoDB storage
+
 
 Real‑time recommendations
 
+
 Scalable modular architecture
+
+
 
 🛠️ Tech Stack
 Frontend: React.js
 
+
 Backend: Node.js, Express.js
+
 
 Database: MongoDB
 
+
 Auth: JWT
+
+
 
 📦 Installation
 1️⃣ Clone the repository
@@ -37,6 +49,7 @@ Backend:
 cd server
 npm install
 
+
 🔑 Environment Variables Setup
 Create .env file under /server with:
 PORT=5000
@@ -47,18 +60,19 @@ SYMPTOM_API_KEY=your_optional_external_api
 🧪 Sample Test Data
 Example user JSON for testing registration:
 {
-"name": "John Doe",
-"email": "john@example.com",
-"password": "123456"
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "123456"
 }
 
 Example symptom submission:
 {
-"symptoms": ["fever", "cough", "fatigue"],
-"age": 25,
-"gender": "male",
-"history": ["asthma"]
+  "symptoms": ["fever", "cough", "fatigue"],
+  "age": 25,
+  "gender": "male",
+  "history": ["asthma"]
 }
+
 
 ▶️ Running the App
 Backend:
@@ -72,31 +86,43 @@ npm start
 App runs on:
 Frontend: http://localhost:3000
 
+
 Backend: http://localhost:5000
+
+
 
 🌐 Deployment
 Deploy Backend
 Render / Railway / Vercel / AWS
 
+
 Add environment variables
 
+
 Connect MongoDB Atlas
+
 
 Deploy Frontend
 Vercel / Netlify
 
+
 Important
 Update the frontend .env with deployed backend URL
 
+
+
 📎 Folder Structure
 project
-├── client (React)
-└── server (Node/Express)
+ ├── client (React)
+ └── server (Node/Express)
+
 
 📹 Demo & Docs
 Demo Video Link
 
+
 Architecture Diagram
+
 
 PPT Link
 
@@ -125,14 +151,21 @@ Responses include condition suggestions, risk level, and advice.
 🚀 Future Enhancements
 AI model integration for advanced diagnosis
 
+
 Chatbot assistant for health queries
+
 
 Integration with wearable devices for vitals monitoring
 
+
 Doctor tele‑consultation module
+
 
 Admin dashboard for analytics
 
+
 Notifications & reminders for medication/history
 
+
 ⭐ Star this repo if you find it useful!
+
